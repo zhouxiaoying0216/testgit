@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="添加用户" duration-ms="1330" started-at="2019-07-21T14:37:07 CST" finished-at="2019-07-21T14:37:08 CST">
+    <groups>
+    </groups>
+    <test name="addUser_test1" duration-ms="1330" started-at="2019-07-21T14:37:07 CST" finished-at="2019-07-21T14:37:08 CST">
+      <class name="com.apis.AddUser">
+        <test-method status="PASS" signature="adduser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apis.AddUser@6574b225]" name="adduser" duration-ms="1278" started-at="2019-07-21T14:37:07 CST" finished-at="2019-07-21T14:37:08 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[花花]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adduser -->
+      </class> <!-- com.apis.AddUser -->
+    </test> <!-- addUser_test1 -->
+  </suite> <!-- 添加用户 -->
+</testng-results>
