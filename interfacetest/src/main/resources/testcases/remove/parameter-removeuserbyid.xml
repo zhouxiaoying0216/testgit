@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- <suite> 套件提供多条 <test> 用例数据 -->
+<!--<suite name="test suite" verbose="1" parallel="methods" thread-count="4">-->
+<suite name="删除用户-根据id">
+
+    <test name="removeUser_test1">
+        <parameter name="id" value="616"/>
+        <classes>
+            <!-- 执行哪个类 -->
+            <class name="com.apis.remove.RemoveUserById">
+                <!-- 执行类中的哪个方法 -->
+                <methods>
+                    <include name="removeuserbyid"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
