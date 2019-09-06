@@ -86,6 +86,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
                 <configuration>
+                    <argLine>-Dfile.encoding=UTF-8 -Xmx1024m -XX:MaxPermSize=256m</argLine>
                     <!-- testng.xml 文件路径 -->
                     <suiteXmlFiles>
                         <suiteXmlFile>./src/main/resources/testcases/add/parameter-adduser.xml</suiteXmlFile>
