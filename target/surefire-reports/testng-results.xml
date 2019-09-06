@@ -5,12 +5,12 @@
       <![CDATA[返回结果为]]>
     </line>
   </reporter-output>
-  <suite name="添加用户" duration-ms="1723" started-at="2019-09-06T16:50:54 CST" finished-at="2019-09-06T16:50:56 CST">
+  <suite name="添加用户" duration-ms="761" started-at="2019-09-06T17:19:10 CST" finished-at="2019-09-06T17:19:10 CST">
     <groups>
     </groups>
-    <test name="addUser_test1" duration-ms="1723" started-at="2019-09-06T16:50:54 CST" finished-at="2019-09-06T16:50:56 CST">
+    <test name="addUser_test1" duration-ms="761" started-at="2019-09-06T17:19:10 CST" finished-at="2019-09-06T17:19:10 CST">
       <class name="com.apis.add.AddUser">
-        <test-method status="PASS" signature="adduser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apis.add.AddUser@548b7f67]" name="adduser" duration-ms="1659" started-at="2019-09-06T16:50:54 CST" finished-at="2019-09-06T16:50:56 CST">
+        <test-method status="PASS" signature="adduser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apis.add.AddUser@548b7f67]" name="adduser" duration-ms="701" started-at="2019-09-06T17:19:10 CST" finished-at="2019-09-06T17:19:10 CST">
           <params>
             <param index="0">
               <value>
