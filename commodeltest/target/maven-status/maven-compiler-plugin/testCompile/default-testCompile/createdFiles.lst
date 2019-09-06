@@ -1,5 +1,0 @@
-mapper\UserMapper.class
-model\UserInfo.class
-dao\UserDao.class
-dao\DBTools.class
-test\TestDao.class
