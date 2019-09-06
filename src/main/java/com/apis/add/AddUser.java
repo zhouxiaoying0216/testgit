@@ -1,6 +1,6 @@
 package com.apis.add;
 
-import com.Enum.ApiEnum;
+import com.enums.ApiEnum;
 import com.alibaba.fastjson.JSONObject;
 import com.utils.PropertiesUtils;
 import com.utils.RequestUtils;
@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.ResourceBundle;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -47,7 +46,7 @@ public class AddUser {
 
 
         //断言
-          assertThat(result).contains("添加成功");
+          assertThat(result).contains("添加成功").as("描述信息");
           assertThat(result).contains("添加成功").contains(userName);
 //        String assetsid = result.substring(17,18);
 //        assertThat(assetsid).as("字段校验").isEqualTo("0");

@@ -1,12 +1,12 @@
 package com.utils;
 
-import com.Enum.ApiEnum;
-import com.Enum.HostEnum;
+import com.enums.ApiEnum;
+import com.enums.HostEnum;
 
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-import static com.Enum.HostEnum.HOST;
+import static com.enums.HostEnum.HOST;
 
 public class PropertiesUtils {
 
@@ -20,7 +20,7 @@ public class PropertiesUtils {
     private static String env_value = resource.getString("env_config_file_name");
 
 
-    private static String config_file="properties"+env_value;
+    private static String config_file="properties/"+env_value;
     private static ResourceBundle resource1 = ResourceBundle.getBundle(config_file, Locale.CHINA);
 
 
